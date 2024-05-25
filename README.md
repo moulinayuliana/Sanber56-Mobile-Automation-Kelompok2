@@ -17,6 +17,6 @@ The automation tests cover various features on the website, and each feature was
 
 ## Automation Test Flight Application using Appium Scope of Test:
 
-Sign In
-Booking Flight
-Check Flight Number
+1. Sign In
+2. Booking Flight
+3. Check Flight Number
