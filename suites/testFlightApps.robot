@@ -24,3 +24,4 @@ Positive - User login with valid credentials
     Click sign in button on login page
     Verify succeeded login
 
+## Access link to screen recording TC-001: https://drive.google.com/file/d/1i-BGBRj4LZ2oIgO2kAiEaTBkQChGGV2_/view?usp=sharing
