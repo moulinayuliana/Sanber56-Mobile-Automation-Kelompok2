@@ -10,7 +10,7 @@ The automation tests cover various features on the website, and each feature was
 
 1. Positive - User login with valid credentials -> automated by @moulinayuliana
 2. Negative - User login with invalid credentials -> automated by Rosa @rosafresia99
-3. Positive - User want to book flight one way -> automated by 
+3. Positive - User want to book flight one way -> automated by Arif @arifrynd
 4. Positive - User want to search flight with valid flight number -> automated by 
 5. Negative - User want to search flight with invalid flight number -> automated by 
 
