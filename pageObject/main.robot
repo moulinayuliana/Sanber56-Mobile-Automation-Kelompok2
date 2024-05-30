@@ -10,7 +10,7 @@ ${appPackage}                        com.example.myapplication
 ${appActivity}                       com.example.myapplication.MainActivity
 ${username_valid}                    support@ngendigital.com
 ${password_valid}                    abc123
-${username_invalid}                  supportlah@ngendigital.com
+${username_invalid}                  ss12
 ${password_invalid}                  aaa111
 ${flightnumber_valid}                DA935
 ${flightnumber_invalid}              DA911

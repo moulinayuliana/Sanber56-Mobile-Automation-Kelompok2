@@ -17,8 +17,12 @@ Input valid password
     Input Password                  locator=${password_input}
     ...                             text=${password_valid}
 
+Input valid password
+    Input Password                  locator=${password_input}
+    ...                             text=${password_invalid}
+
 Click sign in button on login page
-    Click Element                   locator=${signin_btn}
+    Click Element                   locator=${signin_btn}git
 
 Input invalid username
     Input Text                      locator=${username_input}
@@ -29,5 +33,5 @@ Input invalid password
     ...                             text=${password_invalid}
 
 Verify failed login
-    Wait Until Page Contains        Invalid username        ${timeout}
+    Wait Until Page Contains        Invalid username/password        ${timeout}
     
