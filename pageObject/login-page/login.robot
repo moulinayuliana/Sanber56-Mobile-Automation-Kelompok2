@@ -17,12 +17,8 @@ Input valid password
     Input Password                  locator=${password_input}
     ...                             text=${password_valid}
 
-Input valid password
-    Input Password                  locator=${password_input}
-    ...                             text=${password_invalid}
-
 Click sign in button on login page
-    Click Element                   locator=${signin_btn}git
+    Click Element                   locator=${signin_btn}
 
 Input invalid username
     Input Text                      locator=${username_input}

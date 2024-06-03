@@ -2,7 +2,7 @@ from appium import webdriver
 
 desired_caps = {
   "platformName": "Android",
-  "platformVersion": "11.0",
+  "platformVersion": "12.0",
   "deviceName": "emulator-5554",
   "appPackage": "com.example.myapplication",
   "appActivity": "com.example.myapplication.MainActivity"

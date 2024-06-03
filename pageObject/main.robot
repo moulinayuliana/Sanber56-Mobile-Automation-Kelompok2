@@ -4,7 +4,7 @@ Library                            AppiumLibrary
 *** Variables ***
 ${remoteUrl}                         http://127.0.0.1:4723/wd/hub
 ${platformName}                      Android
-${platformVersion}                   11.0
+${platformVersion}                   12.0
 ${deviceName}                        emulator-5554
 ${appPackage}                        com.example.myapplication
 ${appActivity}                       com.example.myapplication.MainActivity

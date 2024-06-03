@@ -10,11 +10,18 @@ Wait until start date is visible
 
 Select start date and end date
     Click Element                    locator=//android.widget.TextView[@resource-id="com.example.myapplication:id/textStartDate"]
-    Wait Until Page Contains         OK          ${timeout}
-    Click Text                       OK                exact_match=False
+    Click Element                    locator=//android.view.View[@content-desc="09 August 2019"]
+    Click Element                    locator=//android.widget.Button[@resource-id="android:id/button1"]    
+    # Wait Until Page Contains         OK          ${timeout}
+    # Click Text                       OK                exact_match=False
     Click Element                    locator=//android.widget.TextView[@resource-id="com.example.myapplication:id/textEndDate"]
-    Wait Until Page Contains         OK          ${timeout}
-    Click Text                       OK                exact_match=False
+    Click Element                    locator=//android.view.View[@content-desc="10 August 2019"]
+    Click Element                    locator=//android.widget.Button[@resource-id="android:id/button1"]  
+    # Wait Until Page Contains         OK          ${timeout}
+    # Click Text                       OK                exact_match=False
+
+
+    
 
 Select flight radio button    
     Click Element                    locator=//android.widget.RadioButton[@resource-id="com.example.myapplication:id/radioButtonFlight"]
