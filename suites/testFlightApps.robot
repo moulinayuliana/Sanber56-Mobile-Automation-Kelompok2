@@ -56,6 +56,9 @@ Positive - User want to book flight one way
     Wait until book menu is visible
     Click book button on homepage
     Wait until start date is visible
+    # Select From City
+    # Select To City
+    # Select Class
     Select start date and end date
     Select flight radio button 
     Click booking button
